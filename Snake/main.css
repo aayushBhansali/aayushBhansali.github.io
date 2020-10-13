@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 95vw;
+  height: 95vh;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#mainframe {
+  margin: 2vw;
+  width: 80vw;
+  height: 70vh;
+  background-color: rgba(20, 235, 206, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(70, 70, 70, 0.9);
+}
+
+#innerframe {
+  position: absolute;
+  margin: 1vw;
+  background-color: white;
+  width: 75vw;
+  height: 60vh;
+}
+
+#Start {
+  margin-left: 1350px;
+  margin-top: 20px;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1vw;
+  border-radius: 10px;
+  font-size: 1.5vw;
+  /* background-color: rgba(14, 211, 136, 0.9); */
+  color: rgba(230, 230, 230);
+  box-shadow: 0 0 10px rgba(70, 70, 70);
+}
+
+#initialBlock {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: green;
+}
+
+#food {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url("./images/egg.png");
+  background-size: cover;
+}
+
+#follower {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("./images/skin.png");
+  background-size: contain;
+}
+
+.header {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
